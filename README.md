@@ -1,7 +1,8 @@
 ## ¡Bienvenido a **Quipux**! 🚀
 
-
-![menu](https://github.com/user-attachments/assets/b803f39d-be43-4e49-99f7-90de33e0977b)
+ <p align="center">
+         <img src="https://github.com/user-attachments/assets/b803f39d-be43-4e49-99f7-90de33e0977b" alt="parte1" width="800">
+</p>
 
 ###
 
