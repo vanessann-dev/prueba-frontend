@@ -1,0 +1,146 @@
+@import "./variables.scss";
+@import "bootstrap/scss/bootstrap";
+
+
+#sidebar-container {
+  height: 100vh; 
+  display: flex;
+  flex-direction: column;
+}
+
+.sidebar {
+  background-color: $side-menu;
+  color: $text-color2;
+  width: $sidebar-collapsed-width;
+  height: 100vh;
+  transition: width 0.3s ease;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: fixed;
+  z-index: 1000;
+
+  &.sidebar-expanded {
+    width: $sidebar-expanded-width;
+    align-items: flex-start;
+  }
+}
+
+
+.content {
+  flex-grow: 1;
+  background-color: $principal-color;
+  transition: margin-left 0.3s ease;
+  height: 100%; 
+  
+  &.content-expanded {
+    margin-left: 0;
+  }
+}
+
+
+.menu-header {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  padding: 10px;
+  justify-content: space-between;
+}
+
+.btn {
+  background: none;
+  border: none;
+  color: $principal-color;
+  font-size: 30px;
+  cursor: pointer;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+}
+
+.hamburger-icon {
+  width: $icon-size;
+  height: $icon-size;
+  margin-bottom: 2rem;
+}
+
+.logo-img-medium {
+  width: 100px;
+}
+
+.menu-title {
+  margin-left: 10px;
+  margin-top: 10px;
+  width: 100%;
+  padding: 0 10px;
+  
+  span {
+    color: gray;
+    font-weight: bold;
+    font-size: 16px;
+  }
+
+  .title-line {
+    margin-top: 5px;
+    margin-bottom: 3rem;
+    height: 2px;
+    background-color: gray;
+    width: 100%;
+  }
+}
+
+.menu {
+  margin-top: -1.5rem;
+  width: 100%;
+}
+
+.menu-item {
+  padding: 10px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  position: relative;
+  transition: background-color 0.3s;
+
+  i {
+    margin-left: 10px;
+  }
+
+  .icon {
+    width: $icon-size;
+    height: $icon-size;
+    margin-left: 5px;
+  }
+}
+
+
+.submenu {
+  margin-left: 20px;
+  display: block;
+
+  a {
+    color: $text-color2;
+    text-decoration: none;
+    padding: 5px 0;
+    display: block;
+
+    &:hover {
+      color: $principal-title;
+    }
+  }
+}
+
+.submenu-line-container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.submenu-line {
+  width: 80%;
+  height: 2px;
+  background-color: $submenu-line-color;
+  margin: 5px 0;
+}

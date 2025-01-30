@@ -1,0 +1,109 @@
+@import "../styles/variables.scss";
+@import "bootstrap/scss/bootstrap";
+
+.search-section {
+  background-color: $principal-color;
+}
+
+.title-custom {
+  margin-top: 5rem;
+  margin-bottom: 2rem;
+  font-size: 3.5rem;
+
+  @media (max-width: 768px) {
+    font-size: 2.5rem;
+    text-align: center;
+  }
+
+  @media (max-width: 480px) {
+    font-size: 2rem;
+  }
+}
+
+.card {
+  margin-top: 10px;
+}
+
+.card-body {
+  padding: 20px;
+}
+
+.custom-card {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin-top: 7rem;
+
+  @media (max-width: 992px) {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+.custom-card .card-body {
+  display: flex;
+  justify-content: space-between;
+
+  @media (max-width: 768px) {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+.custom-card .col-md-4 {
+  margin-bottom: 15px;
+
+  @media (max-width: 576px) {
+    width: 100%;
+  }
+}
+
+.image-container {
+  position: relative;
+  text-align: center;
+}
+
+.profile-img {
+  margin-top: 3rem;
+  width: 110%;
+  height: auto;
+
+  @media (max-width: 768px) {
+    width: 100%;
+  }
+}
+
+.overlay-text {
+  position: absolute;
+  top: 10%;
+  left: 10%;
+  background: rgba(255, 255, 255, 0.5);
+  backdrop-filter: blur(10px);
+  padding: 10px;
+  color: $secundary-title;
+  font-size: 3rem;
+  margin-top: 15rem;
+  margin-left: 2rem;
+  font-weight: bold;
+
+  @media (max-width: 992px) {
+    font-size: 2.5rem;
+    margin-top: 10rem;
+    left: 5%;
+  }
+
+  @media (max-width: 768px) {
+    font-size: 2rem;
+    margin-top: 5rem;
+    left: 2%;
+  }
+
+  @media (max-width: 480px) {
+    font-size: 1.5rem;
+    margin-top: 2rem;
+  }
+}
+
+.cardTitle {
+  color: #00519E;
+}

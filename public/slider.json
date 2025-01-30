@@ -1,0 +1,27 @@
+{
+    "servicios": [
+      {
+        "id": 1,
+        "titulo": "Certificado",
+        "descripcion": "Conoce los beneficios que tenemos para ti al registrarte",
+        "accion": "+ beneficios"
+      },
+      {
+        "id": 2,
+        "titulo": "Crear cuenta",
+        "descripcion": "Conoce los beneficios que tenemos para ti al registrarte",
+        "accion": "Ver todo"
+      },
+      {
+        "id": 3,
+        "titulo": "Top trámites",
+        "descripcion": "Conoce los trámites más solicitados.",
+        "accion": "Ver todo"
+      }
+    ],
+    "tramites": {
+      "titulo": "Trámites en tu mano",
+      "descripcion": "Ahora podrás hacer todos tus trámites desde la comodidad de tu casa, desde cualquier dispositivo computadora, tablet o móvil."
+    }
+  }
+  

@@ -1,0 +1,46 @@
+.container {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+  }
+  
+  .column {
+    width: 45%;
+  }
+  
+  h2 {
+    color: #333;
+    font-size: 1.5em;
+  }
+  
+  p {
+    font-size: 1em;
+    margin: 8px 0;
+  }
+  
+  a {
+    color: #007BFF;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+  
+  ul {
+    list-style: none;
+    padding-left: 0;
+  }
+  
+  li {
+    margin: 5px 0;
+  }
+  
+  li a {
+    color: #007BFF;
+  }
+  
+  li a:hover {
+    text-decoration: underline;
+  }
+  

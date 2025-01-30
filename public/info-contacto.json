@@ -1,0 +1,42 @@
+{
+    "empresaInfo": {
+      "nombre": "Quipux S.A.S",
+      "fechaCreacion": "1995/05/06",
+      "direccion": {
+        "calle": "Carrera 43A No. 3 Sur-130",
+        "edificio": "Ed. Milla de Oro",
+        "distrito": "Distrito de negocios Torre 1",
+        "piso": "Piso 12",
+        "ciudad": "Medellín",
+        "pais": "Colombia"
+      },
+      "telefonos": {
+        "fijo": "+57 (4) 313-70-00",
+        "fax": "+57 (4) 313-44-77"
+      },
+      "sitioWeb": "www.quipux.com/site"
+    },
+    "contactoInfo": {
+      "direccion": {
+        "calle": "Carrera 52 # 91-66",
+        "ciudad": "Medellín",
+        "pais": "Colombia"
+      },
+      "correo": "usuarioapellido@hotmail.com",
+      "sitioWeb": "www.usuarioapellido.com",
+      "redesSociales": {
+        "instagram": "www.instagram.com/usuarioapellido",
+        "linkedin": "www.linkedin.com/usuarioapellido"
+      },
+      "direccionCorrespondencia": {
+        "calle": "Carrera 52 # 91-66",
+        "ciudad": "Envigado",
+        "pais": "Colombia"
+      },
+      "telefonos": {
+        "fijo": "+57 (4) 313-70-00",
+        "celular": "(312) 313-44-77"
+      }
+    }
+  }
+  

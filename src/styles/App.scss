@@ -1,0 +1,23 @@
+#app {
+    display: flex;
+  }
+  
+  .menu-lateral {
+    width: 250px;
+    background-color: #302634;
+  }
+  
+  .main-content {
+    flex-grow: 1;
+  }
+  
+  .encabezado {
+    background-color: #ffffff;
+    padding: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .contenido-principal {
+    padding: 20px;
+  }
+  
